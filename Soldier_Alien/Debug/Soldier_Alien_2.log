@@ -1,0 +1,568 @@
+﻿  Alien.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(5,14): error C2039:  'setSize': is not a member of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(5,22): error C2065:  'string': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(5,29): error C2146:  syntax error: missing ')' before identifier 'sizeIn'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(5,37): error C2143:  syntax error: missing ';' before '{'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(5,37): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(9,16): error C2039:  'getSize': is not a member of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(9,23): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(9,23): error C2146:  syntax error: missing ';' before identifier 'getSize'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(9,26): error C2143:  syntax error: missing ';' before '{'
+  Drone.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.cpp(9,26): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.cpp(15,79): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.cpp(18,3): error C2065:  'cout': undeclared identifier
+  DroneMedic.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.cpp(18,67): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2535:  'Medic::Medic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(17): message :  see declaration of 'Medic::Medic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(23,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(11,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(25,82): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(25,82): error C2535:  'DroneMedic::DroneMedic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(21): message :  see declaration of 'DroneMedic::DroneMedic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(27,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(28,14): error C2065:  'hasClawsIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(29,14): error C2065:  'hasDefibIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.cpp(15,71): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.cpp(18,3): error C2065:  'cout': undeclared identifier
+  DroneRifleman.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.cpp(18,63): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2535:  'Rifleman::Rifleman(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(17): message :  see declaration of 'Rifleman::Rifleman'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(23,13): error C2065:  'hasAmmoIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(11,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(25,87): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(25,87): error C2535:  'DroneRifleman::DroneRifleman(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(21): message :  see declaration of 'DroneRifleman::DroneRifleman'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(27,13): error C2065:  'hasAmmoIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(28,14): error C2065:  'hasClawsIn': undeclared identifier
+  Flyer.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(29,20): error C2065:  'hasWeaponReadyIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(6,2): error C2065:  'set': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(6,6): error C2146:  syntax error: missing ';' before identifier 'hasAcidBreath'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(15,86): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(18,3): error C2065:  'cout': undeclared identifier
+  FlyerMedic.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.cpp(18,61): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2535:  'Medic::Medic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(17): message :  see declaration of 'Medic::Medic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(23,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(24,92): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(24,92): error C2535:  'FlyerMedic::FlyerMedic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(20): message :  see declaration of 'FlyerMedic::FlyerMedic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(27,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(28,19): error C2065:  'hasAcidBreathIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(29,19): error C2065:  'hasSurgeryKitIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.cpp(15,68): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.cpp(18,3): error C2065:  'cout': undeclared identifier
+  FlyerOfficer.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.cpp(18,60): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C3646:  'orders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2535:  'Officer::Officer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(17): message :  see declaration of 'Officer::Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(26,23): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C3646:  'getOrders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,20): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(17,13): error C3646:  'rank': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(17,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(24,85): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(24,85): error C2535:  'FlyerOfficer::FlyerOfficer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(20): message :  see declaration of 'FlyerOfficer::FlyerOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(32,21): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,16): error C3646:  'getRank': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(27,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(27,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(28,19): error C2065:  'hasAcidBreathIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(29,3): error C2065:  'rank': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(29,10): error C2065:  'rankIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(5,28): error C2065:  'string': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(5,35): error C2146:  syntax error: missing ')' before identifier 'rankIn'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(5,43): error C2143:  syntax error: missing ';' before '{'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(5,43): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(9,22): error C2039:  'getRank': is not a member of 'FlyerOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(15): message :  see declaration of 'FlyerOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(9,29): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(9,29): error C2146:  syntax error: missing ';' before identifier 'getRank'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(9,32): error C2143:  syntax error: missing ';' before '{'
+  Main.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.cpp(9,32): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Drone.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Flyer.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C3646:  'orders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2535:  'Officer::Officer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(17): message :  see declaration of 'Officer::Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(26,23): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C3646:  'getOrders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,20): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2535:  'Medic::Medic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(17): message :  see declaration of 'Medic::Medic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(23,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2535:  'Rifleman::Rifleman(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(17): message :  see declaration of 'Rifleman::Rifleman'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(23,13): error C2065:  'hasAmmoIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(11,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(25,82): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(25,82): error C2535:  'DroneMedic::DroneMedic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(21): message :  see declaration of 'DroneMedic::DroneMedic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(27,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(28,14): error C2065:  'hasClawsIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneMedic.h(29,14): error C2065:  'hasDefibIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(11,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(25,87): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(25,87): error C2535:  'DroneRifleman::DroneRifleman(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(21): message :  see declaration of 'DroneRifleman::DroneRifleman'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(27,13): error C2065:  'hasAmmoIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(28,14): error C2065:  'hasClawsIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\DroneRifleman.h(29,20): error C2065:  'hasWeaponReadyIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(24,92): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(24,92): error C2535:  'FlyerMedic::FlyerMedic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(20): message :  see declaration of 'FlyerMedic::FlyerMedic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(27,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(28,19): error C2065:  'hasAcidBreathIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerMedic.h(29,19): error C2065:  'hasSurgeryKitIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(17,13): error C3646:  'rank': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(17,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(24,85): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(24,85): error C2535:  'FlyerOfficer::FlyerOfficer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(20): message :  see declaration of 'FlyerOfficer::FlyerOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(32,21): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,16): error C3646:  'getRank': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(33,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(27,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(27,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(28,19): error C2065:  'hasAcidBreathIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(29,3): error C2065:  'rank': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\FlyerOfficer.h(29,10): error C2065:  'rankIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(24,85): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(24,85): error C2535:  'QueenOfficer::QueenOfficer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(20): message :  see declaration of 'QueenOfficer::QueenOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(27,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(27,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(28,13): error C2065:  'hasEggsIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(29,19): error C2065:  'controlDronesIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(49,49): error C2661:  'std::basic_istream<char,std::char_traits<char>>::getline': no overloaded function takes 1 arguments
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(49,70): error C2661:  'std::basic_istream<char,std::char_traits<char>>::getline': no overloaded function takes 1 arguments
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(49,89): error C2661:  'std::basic_istream<char,std::char_traits<char>>::getline': no overloaded function takes 1 arguments
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(49,110): error C2661:  'std::basic_istream<char,std::char_traits<char>>::getline': no overloaded function takes 1 arguments
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(51,26): error C2679:  binary '<<': no operator found which takes a right-hand operand of type 'void' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(437,39): message :  could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(412,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(394,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(376,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(358,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(340,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(322,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(304,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(286,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(268,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(248,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(230,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(202,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(184,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(179,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(174,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(169,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(931,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(876,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(870,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(864,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(858,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(739,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(694,38): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(658,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(613,39): message :  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  Medic.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Main.cpp(51,26): message :  while trying to match the argument list '(std::ostream, void)'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(21,43): error C2535:  'Medic::Medic(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(17): message :  see declaration of 'Medic::Medic'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.h(23,17): error C2065:  'hasMedicineIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.cpp(15,65): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.cpp(18,3): error C2065:  'cout': undeclared identifier
+  Officer.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Medic.cpp(18,52): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C3646:  'orders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2535:  'Officer::Officer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(17): message :  see declaration of 'Officer::Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(26,23): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C3646:  'getOrders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,20): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(5,25): error C2065:  'string': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(5,32): error C2146:  syntax error: missing ')' before identifier 'ordersIn'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(5,42): error C2143:  syntax error: missing ';' before '{'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(5,42): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(9,17): error C2039:  'getOrders': is not a member of 'Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(12): message :  see declaration of 'Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(9,26): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(9,26): error C2146:  syntax error: missing ';' before identifier 'getOrders'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(9,29): error C2143:  syntax error: missing ';' before '{'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(9,29): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(14,6): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(15,40): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(18,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(18,32): error C2065:  'orders': undeclared identifier
+  Queen.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.cpp(18,51): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.cpp(15,65): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.cpp(18,3): error C2065:  'cout': undeclared identifier
+  QueenOfficer.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.cpp(18,51): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C3646:  'size': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(14,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(25,22): error C2460:  'Alien::sizeIn': uses 'Alien', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(12): message :  see declaration of 'Alien'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C3646:  'getSize': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(26,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Alien.h(22,15): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(18,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Queen.h(22,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C3646:  'orders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(14,15): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(21,42): error C2535:  'Officer::Officer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(17): message :  see declaration of 'Officer::Officer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(26,23): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C3646:  'getOrders': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,18): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(27,20): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Officer.h(23,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(10,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(24,85): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(24,85): error C2535:  'QueenOfficer::QueenOfficer(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(20): message :  see declaration of 'QueenOfficer::QueenOfficer'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(21,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(25,3): error C2065:  'size': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(26,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(27,3): error C2065:  'orders': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(27,12): error C2065:  'ordersIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(28,13): error C2065:  'hasEggsIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.h(29,19): error C2065:  'controlDronesIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.cpp(15,65): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.cpp(18,3): error C2065:  'cout': undeclared identifier
+  Rifleman.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\QueenOfficer.cpp(18,67): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2061:  syntax error: identifier 'string'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(21,42): error C2535:  'Rifleman::Rifleman(void)': member function already defined or declared
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(17): message :  see declaration of 'Rifleman::Rifleman'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(22,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.h(23,13): error C2065:  'hasAmmoIn': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.cpp(15,3): error C2065:  'cout': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.cpp(15,44): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.cpp(18,3): error C2065:  'cout': undeclared identifier
+  Soldier.cpp
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Rifleman.cpp(18,43): error C2065:  'endl': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(7,17): error C2146:  syntax error: missing ';' before identifier 'std'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C3646:  'name': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(15,13): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(26,22): error C2460:  'Soldier::nameIn': uses 'Soldier', which is being defined
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C3646:  'getName': unknown override specifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,16): error C2059:  syntax error: '('
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(27,18): error C2238:  unexpected token(s) preceding ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,3): error C2065:  'name': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(23,16): error C2059:  syntax error: ';'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(6,16): error C2039:  'setName': is not a member of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(6,24): error C2065:  'string': undeclared identifier
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(6,31): error C2146:  syntax error: missing ')' before identifier 'nameIn'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(6,39): error C2143:  syntax error: missing ';' before '{'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(6,39): error C2447:  '{': missing function header (old-style formal list?)
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(10,17): error C2039:  'getName': is not a member of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.h(12): message :  see declaration of 'Soldier'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(10,24): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(10,24): error C2146:  syntax error: missing ';' before identifier 'getName'
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(10,27): error C2143:  syntax error: missing ';' before '{'
+  Generating Code...
+C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\Soldier.cpp(10,27): error C2447:  '{': missing function header (old-style formal list?)

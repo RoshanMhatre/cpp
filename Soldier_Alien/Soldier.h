@@ -4,12 +4,12 @@
 #include <iostream>
 #include <string>
 
-using namesapce std;
+using namespace std;
 
 #ifndef SOLDIER_H
 #define SOLDIER_H
 
-class Solider {
+class Soldier {
 
 protected:
 	string name;
@@ -19,13 +19,12 @@ public:
 
 	}
 
-	Soldier(nameIn) {
+	Soldier(string nameIn) {
 		name = nameIn;
 	}
 
 	void setName(string);
 	string getName();
-
 };
 
 #endif /* SOLDIER_H */

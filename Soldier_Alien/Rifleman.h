@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include "Soldier.h"
-using namesapce std;
+using namespace std;
 
 #ifndef RIFLEMAN_H
 #define RIFLEMAN_H
@@ -23,8 +23,9 @@ public:
 		hasAmmo = hasAmmoIn;
 	}
 
-	void setHasAmmo(string);
+	void setHasAmmo(bool);
 	bool getHasAmmo();
 	void takeShot();
 };
+
 #endif /* RIFLEMAN_H */

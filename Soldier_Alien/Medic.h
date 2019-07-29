@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include "Soldier.h"
-using namesapce std;
+using namespace std;
 
 #ifndef MEDIC_H
 #define MEDIC_H

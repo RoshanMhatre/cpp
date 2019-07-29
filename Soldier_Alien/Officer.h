@@ -4,14 +4,13 @@
 #include <iostream>
 #include <string>
 #include "Soldier.h"
-using namesapce std;
+using namespace std;
 
 #ifndef OFFICER_H
 #define OFFICER_H
 
 class Officer : public Soldier {
 protected:
-	string rank;
 	string orders;
 
 public:
@@ -19,18 +18,14 @@ public:
 
 	}
 
-	Officer(string nameIn, string rankIn) {
+	Officer(string nameIn, string ordersIn) {
 		name = nameIn;
-		rank = rankIn;
+		orders = ordersIn;
 	}
-
-	void setRank(string);
-	void getRank();
 
 	void setOrders(string);
 	string getOrders();
 	void giveOrders();
-
-
 };
+
 #endif /* OFFICER_H */

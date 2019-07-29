@@ -2,15 +2,7 @@
 #include <string>
 #include "Officer.h"
 
-void Officer::setRank(rankIn) {
-	rank = rankIn;
-}
-
-string Officer::getRank() {
-	return rank;
-}
-
-void Officer::setOrders(ordersIn) {
+void Officer::setOrders(string ordersIn) {
 	orders = ordersIn;
 }
 
@@ -25,5 +17,4 @@ void Officer::giveOrders() {
 	else {
 		cout << "The orders are " << orders << "!!!" << endl;
 	}
-
 }

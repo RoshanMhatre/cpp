@@ -4,14 +4,13 @@
 #include <iostream>
 #include <string>
 
-using namesapce std;
+using namespace std;
 
-#ifndef SOLDIER_H
-#define SOLDIER_H
+#ifndef ALIEN_H
+#define ALIEN_H
 
 class Alien {
 protected:
-	string species;
 	string size;
 
 public:
@@ -19,19 +18,12 @@ public:
 
 	}
 
-	Alien(speciesIn, sizeIn) {
-		this.species = speciesIn;
-		this.size = sizeIn;
+	Alien(string sizeIn) {
+		size= sizeIn;
 	}
 
-	void setSpecies(string);
 	void setSize(string);
-	string getSpecies();
 	string getSize();
-
 };
 
-
-
-
-#endif /* SOLDIER_H */
+#endif /* ALIEN_H */

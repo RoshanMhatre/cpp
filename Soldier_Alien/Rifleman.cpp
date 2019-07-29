@@ -2,7 +2,7 @@
 #include <string>
 #include "Rifleman.h"
 
-void Rifleman::setHasAmmo(hasAmmoIn) {
+void Rifleman::setHasAmmo(bool hasAmmoIn) {
 	hasAmmo = hasAmmoIn;
 }
 

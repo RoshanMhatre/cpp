@@ -2,7 +2,7 @@
 #include <string>
 #include "Medic.h"
 
-void Medic::hasMedicine(hasMedicineIn) {
+void Medic::setHasMedicine(bool hasMedicineIn) {
 	hasMedicine = hasMedicineIn;
 }
 
