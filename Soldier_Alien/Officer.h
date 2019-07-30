@@ -11,17 +11,9 @@ using namespace std;
 
 class Officer : public Soldier {
 protected:
-	string orders;
+	string orders = "Attack!!";
 
 public:
-	Officer() {
-
-	}
-
-	Officer(string nameIn, string ordersIn) {
-		name = nameIn;
-		orders = ordersIn;
-	}
 
 	void setOrders(string);
 	string getOrders();

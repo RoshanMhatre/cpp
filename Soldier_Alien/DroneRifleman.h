@@ -15,15 +15,9 @@ using namespace std;
 
 class DroneRifleman : public Rifleman, public Drone {
 protected:
-	bool hasWeaponReady;
+	bool hasWeaponReady = true;
 
 public:
-	DroneRifleman(string nameIn, bool hasAmmoIn, bool hasClawsIn, bool hasWeaponReadyIn) {
-		name = nameIn;
-		hasAmmo = hasAmmoIn;
-		hasClaws = hasClawsIn;
-		hasWeaponReady = hasWeaponReadyIn;	
-	}
 
 	void setWeaponReady(bool);
 	bool getWeaponReady();

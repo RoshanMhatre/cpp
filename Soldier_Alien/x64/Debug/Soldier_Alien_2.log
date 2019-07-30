@@ -1,0 +1,16 @@
+﻿  Alien.cpp
+  Drone.cpp
+  DroneMedic.cpp
+  DroneRifleman.cpp
+  Flyer.cpp
+  FlyerMedic.cpp
+  FlyerOfficer.cpp
+  Main.cpp
+  Medic.cpp
+  Officer.cpp
+  Queen.cpp
+  QueenOfficer.cpp
+  Rifleman.cpp
+  Soldier.cpp
+  Generating Code...
+  Soldier_Alien_2.vcxproj -> C:\Users\rnedl\OneDrive\Documents\myprojects\cpp\Soldier_Alien\x64\Debug\Soldier_Alien_2.exe

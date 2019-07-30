@@ -11,13 +11,9 @@ using namespace std;
 
 class Rifleman : public Soldier {
 protected:
-	bool hasAmmo;
+	bool hasAmmo = true;
 
 public:
-	Rifleman(string nameIn, bool hasAmmoIn) {
-		name = nameIn;
-		hasAmmo = hasAmmoIn;
-	}
 
 	void setHasAmmo(bool);
 	bool getHasAmmo();

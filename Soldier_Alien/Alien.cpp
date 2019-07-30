@@ -9,3 +9,7 @@ void Alien:: setSize(string sizeIn) {
 string Alien:: getSize() {
 	return size;
 }
+
+void Alien::alienScream() {
+	cout << "The Alien screams with spittle flying everywhere!!!" << endl;
+}

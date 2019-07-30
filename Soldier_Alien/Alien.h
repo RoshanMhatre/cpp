@@ -11,19 +11,12 @@ using namespace std;
 
 class Alien {
 protected:
-	string size;
+	string size = "MEDIUM";
 
 public:
-	Alien() {
-
-	}
-
-	Alien(string sizeIn) {
-		size= sizeIn;
-	}
-
 	void setSize(string);
 	string getSize();
+	void alienScream();
 };
 
 #endif /* ALIEN_H */

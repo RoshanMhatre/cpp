@@ -11,14 +11,9 @@ using namespace std;
 
 class Medic : public Soldier {
 protected:
-	bool hasMedicine;
+	bool hasMedicine = true;
 
 public:
-	Medic(string nameIn, bool hasMedicineIn) {
-		name = nameIn;
-		hasMedicine = hasMedicineIn;
-	}
-
 	void setHasMedicine(bool);
 	bool getHasMedicine();
 	void giveMedicine();

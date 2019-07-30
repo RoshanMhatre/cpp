@@ -9,6 +9,7 @@
 
 */
 #include <cstdlib>
+#include <cstdio>
 #include <string>
 #include <iostream>
 #include <vector>
@@ -26,53 +27,31 @@
 #include "FlyerMedic.h"
 #include "FlyerOfficer.h"
 #include "QueenOfficer.h"
+#include "Main.h"
 
 using namespace std;
 
 int main() {
 
-	string answer;
-	string name;
-	string orders;
-	string rank;
-	bool eggs{};
-	bool drones{};
-	bool breath;
-	bool medicine;
-	bool surgery;
-	bool claws;
-	bool defib;
-	bool ammo;
-	bool weapon;
-	
-	cout << "\tALIEN SOLDIER HYBRIDS!!" << endl;
+	cout << "ALIEN SOLDIER HYBRIDS!!" << endl;
+	cout << "The Battle Begins!" << endl;
 
-	cout << "\tLet us start with the Queen Officer." <<
-		"\n\tPlease enter a name: " << endl;
-	cin >> name;
-	cout << "\n\tDoes she have eggs: " << endl;
-	cin.ignore();
-	cin >> answer;
-	if (answer == "yes" || answer == "Yes") {
-		eggs = true;
-	}
-	else {
-		eggs = false;
-	}
-	cout << "\n\tIs she able to control her Drones: " << endl;
-	cin.ignore();
-	cin >> answer;
-	if (answer == "yes" || answer == "Yes") {
-		drones = true;
-	}
-	else {
-		drones = false;
-	}
+	QueenOfficer q;
+	FlyerOfficer fo;
+	FlyerMedic fm;
+	DroneMedic dm;
+	DroneRifleman dr;
 
-	QueenOfficer QO = QueenOfficer(name, orders, eggs, drones);
+	q.getName();
+	q.getSize();
+	q.alienScream();
+	q.giveOrders();
+	q.implantEggs();
+	q.orderDrones();
 
-	QO.giveOrders();
-
+	fo.alienScream();
+	fo.shootAcidBreath();
+	fo.shoutOrders();
 
 	return 0;
 

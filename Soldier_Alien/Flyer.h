@@ -11,18 +11,9 @@ using namespace std;
 
 class Flyer : public Alien {
 protected:
-	bool hasAcidBreath;
+	bool hasAcidBreath = true;
 
 public:
-	Flyer() {
-		size = "LARGE";
-	}
-
-	Flyer(bool hasAcidBreathIn) {
-		size = "LARGE";
-		hasAcidBreath = hasAcidBreathIn;
-	}
-
 	void setHasAcidBreath(bool);
 	bool getHasAcidBreath();
 	void shootAcidBreath();

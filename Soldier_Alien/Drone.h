@@ -11,17 +11,9 @@ using namespace std;
 
 class Drone : public Alien {
 protected:
-	bool hasClaws;
+	bool hasClaws = true;
 
 public:
-	Drone() {
-		size = "MEDIUM";
-	}
-
-	Drone(bool hasClawsIn) {
-		size = "MEDIUM";
-		hasClaws = hasClawsIn;
-	}
 
 	void setHasClaws(bool);
 	bool getHasClaws();

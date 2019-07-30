@@ -14,20 +14,10 @@ using namespace std;
 
 class FlyerMedic : public Flyer, public Medic {
 protected:
-	bool hasSurgeryKit;
+	string size = "LARGE";
+	bool hasSurgeryKit = true;
 
 public:
-	FlyerMedic() {
-		size = "LARGE";
-	}
-
-	FlyerMedic(string nameIn, bool hasMedicineIn, bool hasAcidBreathIn, bool hasSurgeryKitIn) {
-		size = "LARGE";
-		name = nameIn;
-		hasMedicine = hasMedicineIn;
-		hasAcidBreath = hasAcidBreathIn;
-		hasSurgeryKit = hasSurgeryKitIn;
-	}
 
 	void setHasSurgeryKit(bool);
 	bool getHasSurgeryKit();

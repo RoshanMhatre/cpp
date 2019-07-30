@@ -121,6 +121,7 @@
     <ClInclude Include="Flyer.h" />
     <ClInclude Include="FlyerMedic.h" />
     <ClInclude Include="FlyerOfficer.h" />
+    <ClInclude Include="Main.h" />
     <ClInclude Include="Medic.h" />
     <ClInclude Include="Officer.h" />
     <ClInclude Include="Queen.h" />

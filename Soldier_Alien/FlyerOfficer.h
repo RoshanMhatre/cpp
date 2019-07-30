@@ -14,23 +14,15 @@ using namespace std;
 
 class FlyerOfficer : public Flyer, public Officer {
 protected:
-	string rank;
+	string size = "LARGE";
+	string rank = "Captain.";
+	string orders = "Retreat!!";
 
 public:
-	FlyerOfficer() {
-		size = "LARGE";
-	}
-
-	FlyerOfficer(string nameIn, string ordersIn, bool hasAcidBreathIn, string rankIn ) {
-		size = "LARGE";
-		name = nameIn;
-		orders = ordersIn;
-		hasAcidBreath = hasAcidBreathIn;
-		rank = rankIn;
-	}
 
 	void setRank(string);
 	string getRank();
+	void shoutOrders();
 };
 
 #endif /* FLYEROFFICER_H */

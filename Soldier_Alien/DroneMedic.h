@@ -15,16 +15,9 @@ using namespace std;
 
 class DroneMedic : public Medic, public Drone {
 protected:
-	bool hasDefib;
+	bool hasDefib = true;
 
 public:
-	DroneMedic(string nameIn, bool hasMedicineIn, bool hasClawsIn, bool hasDefibIn) {
-		name = nameIn;
-		hasMedicine = hasMedicineIn;
-		hasClaws = hasClawsIn;
-		hasDefib = hasDefibIn;
-	}
-
 	void setHasDefib(bool);
 	bool getHasDefib();
 	void useDefib();

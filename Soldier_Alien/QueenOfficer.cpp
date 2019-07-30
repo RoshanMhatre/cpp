@@ -18,3 +18,11 @@ void QueenOfficer::orderDrones() {
 		cout << "The Queen Officer has lost control of her Drones!!" << endl;
 	}
 }
+void QueenOfficer::giveOrders() {
+	if (orders.empty()) {
+		cout << "Still awaiting orders!!" << endl;
+	}
+	else {
+		cout << "The orders are " << orders << "!!!" << endl;
+	}
+}

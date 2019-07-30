@@ -12,16 +12,9 @@ using namespace std;
 class Soldier {
 
 protected:
-	string name;
+	string name = "Bob";
 	
 public:
-	Soldier() {
-
-	}
-
-	Soldier(string nameIn) {
-		name = nameIn;
-	}
 
 	void setName(string);
 	string getName();

@@ -11,17 +11,9 @@ using namespace std;
 
 class Queen: public Alien {
 protected:
-	bool hasEggs;
+	bool hasEggs = true;
 
 public:
-	Queen() {
-		size = "HUGE";
-	}
-
-	Queen(bool hasEggsIn) {
-		size = "HUGE";
-		hasEggs = hasEggsIn;
-	}
 
 	void setHasEggs(bool);
 	bool getHasEggs();

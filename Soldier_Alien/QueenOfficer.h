@@ -14,24 +14,16 @@ using namespace std;
 
 class QueenOfficer : public Queen, public Officer {
 protected:
-	bool controlDrones;
+	bool controlDrones = true;
+	string orders = "ATTACK!!!";
+	string size = "HUGE";
 
 public:
-	QueenOfficer() {
-		size = "HUGE";
-	}
-
-	QueenOfficer(string nameIn, string ordersIn, bool hasEggsIn, bool controlDronesIn) {
-		size = "HUGE";
-		name = nameIn;
-		orders = ordersIn;
-		hasEggs = hasEggsIn;
-		controlDrones = controlDronesIn;
-	}
 
 	void setControlDrones(bool);
 	bool getControlDrones();
 	void orderDrones();
+	void giveOrders();
 };
 
 #endif /* QUEENOFFICER_H */
