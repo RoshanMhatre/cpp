@@ -14,10 +14,6 @@ protected:
 	bool hasAmmo;
 
 public:
-	Rifleman() {
-
-	}
-
 	Rifleman(string nameIn, bool hasAmmoIn) {
 		name = nameIn;
 		hasAmmo = hasAmmoIn;

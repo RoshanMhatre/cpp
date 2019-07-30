@@ -18,10 +18,6 @@ protected:
 	bool hasDefib;
 
 public:
-	DroneMedic() {
-
-	}
-
 	DroneMedic(string nameIn, bool hasMedicineIn, bool hasClawsIn, bool hasDefibIn) {
 		name = nameIn;
 		hasMedicine = hasMedicineIn;

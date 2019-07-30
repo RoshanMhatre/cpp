@@ -14,10 +14,6 @@ protected:
 	bool hasMedicine;
 
 public:
-	Medic() {
-
-	}
-
 	Medic(string nameIn, bool hasMedicineIn) {
 		name = nameIn;
 		hasMedicine = hasMedicineIn;

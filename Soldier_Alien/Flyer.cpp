@@ -3,7 +3,7 @@
 #include "Flyer.h"
 
 void Flyer::setHasAcidBreath(bool hasAcidBreathIn) {
-	set hasAcidBreath = hasAcidBreathIn;
+	hasAcidBreath = hasAcidBreathIn;
 }
 
 bool Flyer::getHasAcidBreath() {

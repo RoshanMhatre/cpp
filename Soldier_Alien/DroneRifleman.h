@@ -18,10 +18,6 @@ protected:
 	bool hasWeaponReady;
 
 public:
-	DroneRifleman() {
-
-	}
-
 	DroneRifleman(string nameIn, bool hasAmmoIn, bool hasClawsIn, bool hasWeaponReadyIn) {
 		name = nameIn;
 		hasAmmo = hasAmmoIn;

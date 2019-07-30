@@ -9,8 +9,8 @@
 
 */
 #include <cstdlib>
-#include <iostream>
 #include <string>
+#include <iostream>
 #include <vector>
 #include <exception>
 #include "Alien.h"
@@ -31,11 +31,12 @@ using namespace std;
 
 int main() {
 
+	string answer;
 	string name;
 	string orders;
 	string rank;
-	bool eggs;
-	bool drones;
+	bool eggs{};
+	bool drones{};
 	bool breath;
 	bool medicine;
 	bool surgery;
@@ -46,17 +47,33 @@ int main() {
 	
 	cout << "\tALIEN SOLDIER HYBRIDS!!" << endl;
 
-	QueenOfficer QO = QueenOfficer(cin.getline(name), cin.getline(orders), cin.getline(eggs), cin.getline(drones));
+	cout << "\tLet us start with the Queen Officer." <<
+		"\n\tPlease enter a name: " << endl;
+	cin >> name;
+	cout << "\n\tDoes she have eggs: " << endl;
+	cin.ignore();
+	cin >> answer;
+	if (answer == "yes" || answer == "Yes") {
+		eggs = true;
+	}
+	else {
+		eggs = false;
+	}
+	cout << "\n\tIs she able to control her Drones: " << endl;
+	cin.ignore();
+	cin >> answer;
+	if (answer == "yes" || answer == "Yes") {
+		drones = true;
+	}
+	else {
+		drones = false;
+	}
 
-	cout << QO.giveOrders() << endl;
+	QueenOfficer QO = QueenOfficer(name, orders, eggs, drones);
+
+	QO.giveOrders();
 
 
-
-
-
-
-
-
-
+	return 0;
 
 }
