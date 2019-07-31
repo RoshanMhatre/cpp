@@ -17,7 +17,7 @@ public:
 
 	void setHasAmmo(bool);
 	bool getHasAmmo();
-	void takeShot();
+	void attack();
 };
 
 #endif /* RIFLEMAN_H */

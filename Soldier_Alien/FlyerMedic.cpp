@@ -11,10 +11,5 @@ bool FlyerMedic::getHasSurgeryKit() {
 }
 
 void FlyerMedic::useSurgeryKit() {
-	if (hasSurgeryKit) {
-		cout << "The Flyer Medic uses its surgery kit on a comrade!!" << endl;
-	}
-	else {
-		cout << "The Flyer Medic has no surgery kit to use!!" << endl;
-	}
+	cout << "The Flyer Medic uses its surgery kit on a comrade!!" << endl;
 }

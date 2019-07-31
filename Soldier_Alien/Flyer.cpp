@@ -10,11 +10,6 @@ bool Flyer::getHasAcidBreath() {
 	return hasAcidBreath;
 }
 
-void Flyer::shootAcidBreath() {
-	if (hasAcidBreath) {
-		cout << "The Flyer flies by and shoots its deadly Acid all over the soldiers!!" << endl;
-	}
-	else {
-		cout << "The Flyer has already used all of its Acid!!" << endl;
-	}	
+void Flyer::alienScream() {
+	cout << "The Flyer screams in rages and spits acid all over it's enemies!!" << endl;
 }

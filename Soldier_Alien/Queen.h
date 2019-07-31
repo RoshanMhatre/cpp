@@ -17,7 +17,7 @@ public:
 
 	void setHasEggs(bool);
 	bool getHasEggs();
-	void implantEggs();
+	void alienScream();
 };
 
 #endif /* QUEEN_H */

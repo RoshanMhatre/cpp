@@ -3,10 +3,10 @@
 #include "Soldier.h"
 
 
-void Soldier:: setName(string nameIn) {
-	name = nameIn;
+void Soldier:: setRank(string rankIn) {
+	rank = rankIn;
 }
 
-string Soldier::getName() {
-	return name;
+string Soldier::getRank() {
+	return rank;
 }

@@ -15,15 +15,13 @@ using namespace std;
 class QueenOfficer : public Queen, public Officer {
 protected:
 	bool controlDrones = true;
-	string orders = "ATTACK!!!";
-	string size = "HUGE";
-
+	
 public:
 
 	void setControlDrones(bool);
 	bool getControlDrones();
-	void orderDrones();
-	void giveOrders();
+	void dronesAttack();
+
 };
 
 #endif /* QUEENOFFICER_H */

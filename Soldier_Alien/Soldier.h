@@ -12,12 +12,13 @@ using namespace std;
 class Soldier {
 
 protected:
-	string name = "Bob";
+	string rank;
 	
 public:
 
-	void setName(string);
-	string getName();
+	void setRank(string);
+	string getRank();
+	virtual void attack() = 0;
 };
 
 #endif /* SOLDIER_H */

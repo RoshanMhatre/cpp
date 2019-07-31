@@ -11,12 +11,12 @@ using namespace std;
 
 class Alien {
 protected:
-	string size = "MEDIUM";
+	string size;
 
 public:
 	void setSize(string);
 	string getSize();
-	void alienScream();
+	virtual void alienScream() = 0;
 };
 
 #endif /* ALIEN_H */

@@ -18,10 +18,10 @@ protected:
 	bool hasWeaponReady = true;
 
 public:
-
 	void setWeaponReady(bool);
 	bool getWeaponReady();
-	void attack();
+	void swarmAttack();
+
 };
 
 #endif /* DRONERIFLEMAN_H */

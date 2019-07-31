@@ -10,19 +10,6 @@ bool QueenOfficer::getControlDrones() {
 	return controlDrones;
 }
 
-void QueenOfficer::orderDrones() {
-	if (controlDrones) {
-		cout << "The Queen Officer is now controlling her Drones!" << endl;
-	}
-	else {
-		cout << "The Queen Officer has lost control of her Drones!!" << endl;
-	}
-}
-void QueenOfficer::giveOrders() {
-	if (orders.empty()) {
-		cout << "Still awaiting orders!!" << endl;
-	}
-	else {
-		cout << "The orders are " << orders << "!!!" << endl;
-	}
+void QueenOfficer::dronesAttack() {
+	cout << "The Huge Hybrid Queen directs her Drones to swarm over a single opponent with a hiss and flip of her barbed tail!!" << endl;
 }

@@ -10,11 +10,6 @@ bool Queen::getHasEggs() {
 	return hasEggs;
 }
 
-void Queen::implantEggs() {
-	if (hasEggs) {
-		cout << "The Queen stabs with her tail and impants eggs!!" << endl;
-	}
-	else {
-		cout << "The Queen has no eggs to implant!!" << endl;
-	}
+void Queen::alienScream() {
+	cout << "The Queen screams in unnatural rage and stabs her victim with her tail, implanting her eggs within!!" << endl;
 }

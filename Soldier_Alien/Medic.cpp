@@ -10,11 +10,6 @@ bool Medic:: getHasMedicine() {
 	return hasMedicine;
 }
 
-void Medic::giveMedicine() {
-	if (hasMedicine) {
-		cout << "The Medic gives medicine to an injured soldier!!" << endl;
-	}
-	else {
-		cout << "The Medic has no medicine to give!!" << endl;
-	}
+void Medic::attack(){
+	cout << "The Medic shoots his Laser Pistol at an enemy and quickly ducks behind cover to adminster pain meds to his comrade!!" << endl;
 }

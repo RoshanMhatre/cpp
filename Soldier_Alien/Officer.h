@@ -11,13 +11,13 @@ using namespace std;
 
 class Officer : public Soldier {
 protected:
-	string orders = "Attack!!";
+	bool givesOrders = true;
 
 public:
 
-	void setOrders(string);
-	string getOrders();
-	void giveOrders();
+	void setOrders(bool);
+	bool getOrders();
+	void attack();
 };
 
 #endif /* OFFICER_H */

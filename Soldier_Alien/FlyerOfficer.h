@@ -14,12 +14,8 @@ using namespace std;
 
 class FlyerOfficer : public Flyer, public Officer {
 protected:
-	string size = "LARGE";
-	string rank = "Captain.";
-	string orders = "Retreat!!";
-
+	string rank = "Captain";
 public:
-
 	void setRank(string);
 	string getRank();
 	void shoutOrders();

@@ -11,10 +11,5 @@ string FlyerOfficer::getRank() {
 }
 
 void FlyerOfficer::shoutOrders() {
-	if (orders.empty()) {
-		cout << "No orders!!" << endl;
-	}
-	else {
-		cout << "All Hybrid Aliens " << orders << "!!!" << endl;
-	}
+	cout << "Spittle flies from the Hybrid's lips as it shouts the orders to Attack!!" << endl;
 }

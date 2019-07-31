@@ -11,10 +11,5 @@ bool DroneMedic::getHasDefib() {
 }
 
 void DroneMedic::useDefib() {
-	if (hasDefib) {
-		cout << "The Drone Medic is using a defibrilator on a comrade!!" << endl;
-	}
-	else {
-		cout << "The Drone Medic no longer has a defibrilator!!" << endl;
-	}
+	cout << "The Hybrid Alien Drone Medic uses a defibrilator on a fallen comrade!!" << endl;
 }

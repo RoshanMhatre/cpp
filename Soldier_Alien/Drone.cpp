@@ -10,11 +10,6 @@ bool Drone::getHasClaws() {
 	return hasClaws;
 }
 
-void Drone::clawAttack() {
-	if (hasClaws) {
-		cout << "The Drone jumps on a soldier and uses its claws to rip flesh!!" << endl;
-	}
-	else {
-		cout << "The Drone does not have any claws to attack with!!" << endl;
-	}
+void Drone::alienScream(){
+	cout << "The Drone screams with spittle flying and attacks with it's claws!!!" << endl;
 }

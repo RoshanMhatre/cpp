@@ -27,7 +27,6 @@
 #include "FlyerMedic.h"
 #include "FlyerOfficer.h"
 #include "QueenOfficer.h"
-#include "Main.h"
 
 using namespace std;
 
@@ -42,16 +41,16 @@ int main() {
 	DroneMedic dm;
 	DroneRifleman dr;
 
-	q.getName();
-	q.getSize();
+	q.setSize("HUGE");
+	q.setRank("GENERAL");
+	cout << "Rank: " << q.getRank() << endl;
+	cout << "Size: " << q.getSize() << endl;
 	q.alienScream();
-	q.giveOrders();
-	q.implantEggs();
-	q.orderDrones();
+	q.attack();
+	q.dronesAttack();
 
-	fo.alienScream();
-	fo.shootAcidBreath();
-	fo.shoutOrders();
+
+
 
 	return 0;
 

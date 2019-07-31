@@ -17,7 +17,7 @@ public:
 
 	void setHasClaws(bool);
 	bool getHasClaws();
-	void clawAttack();
+	void alienScream();
 };
 
 #endif /* DRONE_H */

@@ -16,7 +16,7 @@ protected:
 public:
 	void setHasAcidBreath(bool);
 	bool getHasAcidBreath();
-	void shootAcidBreath();
+	void alienScream();
 };
 
 #endif /* FLYER_H */

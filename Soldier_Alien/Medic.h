@@ -16,6 +16,6 @@ protected:
 public:
 	void setHasMedicine(bool);
 	bool getHasMedicine();
-	void giveMedicine();
+	void attack();
 };
 #endif /* MEDIC_H */

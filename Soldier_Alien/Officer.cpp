@@ -2,19 +2,14 @@
 #include <string>
 #include "Officer.h"
 
-void Officer::setOrders(string ordersIn) {
-	orders = ordersIn;
+void Officer::setOrders(bool ordersIn) {
+	givesOrders = ordersIn;
 }
 
-string Officer::getOrders() {
-	return orders;
+bool Officer::getOrders() {
+	return givesOrders;
 }
 
-void Officer::giveOrders() {
-	if (orders.empty()) {
-		cout << "Still awaiting orders!!" << endl;
-	}
-	else {
-		cout << "The orders are " << orders << "!!!" << endl;
-	}
+void Officer::attack() {
+	cout << "The Officer shouts his orders while stabbing an enemy with his bayonet!!" << endl;
 }
