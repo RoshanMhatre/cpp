@@ -11,5 +11,5 @@ bool Officer::getOrders() {
 }
 
 void Officer::attack() {
-	cout << "The Officer shouts his orders while stabbing an enemy with his bayonet!!" << endl;
+	cout << "The Officer shouts the orders while stabbing an enemy with a bayonet!!" << endl;
 }
