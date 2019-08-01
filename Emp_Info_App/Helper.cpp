@@ -231,3 +231,32 @@ void Helper::editEmployee(Employee emp){
     cin.ignore();
 
 }
+
+void Helper::writeToFile(vector<Employee> emps){
+
+    // This serializes an Employee object for easy writing to a file.
+    friend ostream & operator << (ostream &out, const Employee & obj){
+        out << obj.getIDnum()
+        << obj.getFname() << "\n"
+        << obj.getMname() << "\n"
+        << obj.getLname() << "\n"
+        << obj.getAge() << "\n"
+        << obj.getHphone() << "\n"
+        << obj.getWphone() << "\n"
+        << obj.getHemail() << "\n"
+        << obj.getWemail() << "\n"
+        << obj.getHaddress << "\n\n" << endl;
+    }
+
+    // Open our file.
+    ofstream out ("Employees.txt");
+
+    // For loop to iterate through the passed in vector and write each object out to the file.
+    for (int i = 0; i < emps.size(); i++){
+        out<<emps[i];
+    }
+
+    // Close file
+    out.close();
+
+}

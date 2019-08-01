@@ -49,6 +49,7 @@ class Helper {
         vector<Employee> searchEmployees(vector<Employee> emps);
         void displayEmployee(Employee emp);
         void editEmployee(Employee emp);
+        void writeToFile(vector<Employee> emps);
 
 };
 
