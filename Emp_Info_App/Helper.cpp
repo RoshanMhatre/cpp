@@ -1,3 +1,4 @@
+
 /* Author: Rodney Nedlose
  * Date: 8.1.19
  * File:   Helper.cpp
@@ -27,6 +28,7 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
         // For loop to get data for each employee to be entered
         for (int i = 0; i < numEmployees; i++)
         {
+            
             cout << "\n\tEnter Information as prompted." << endl;
             cout << "\n\tFirst Name: " << endl;
             cin >> fNameIn;
@@ -45,7 +47,9 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
             cout << "\n\tWork Email: " << endl;
             cin >> wEmailIn;
             cout << "\n\tHome Address: " << endl;
-            cin >> hAddressIn;
+            cin.ignore();
+            getline(cin, hAddressIn);
+            
 
             // Generate random number from 1-100000 for and Employee ID number.
             randNum = rand() %100000;
@@ -223,11 +227,11 @@ Employee Helper::editEmployee(Employee emp){
 
 void Helper::writeToFile(vector<Employee> emps){
 
-    for (int i = 0; i < emps.size() + 1; i++){
+    for (int i = 0; i < emps.size(); i++){
 
         ofstream empFile;
         
-        empFile.open("Employees.txt");
+        empFile.open("Employees.txt",ios::app);
         
         empFile << "\nEmployee ID Number: " << emps[i].getIDnum() << endl;
         empFile << "First Name: " << emps[i].getFname() << endl;
