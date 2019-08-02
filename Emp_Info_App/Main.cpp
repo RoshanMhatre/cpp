@@ -20,7 +20,8 @@ using namespace std;
 
 int main(){
     try{
-        string choice;
+        int choice;
+        vector<Employee> emps;
 
         Helper h = Helper();
         do {
@@ -36,13 +37,13 @@ int main(){
                 cin >> choice;
 
                 if (choice == 1){
-
-                    
+                    emps = h.inputEmployees(emps);                    
 
                 }else if (choice == 2){
+                    emps = h.searchEmployees(emps);
 
                 }else if (choice == 3){
-
+                    h.writeToFile(emps);
                 }
 
 
@@ -53,20 +54,6 @@ int main(){
     }catch(exception ex){
         cout << ex.what() << endl;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

@@ -13,12 +13,12 @@
 
 #include "Helper.h"
 
-vector<Employee> Helper::inputEmployees(){
+vector<Employee> Helper::inputEmployees(vector<Employee> emps){
     // Try catch block for unforeseen exception catching.
     try{    
 
         // Create a vector to be returned to caller after data entry.
-        vector<Employee> employees;
+        // vector<Employee> employees = emps;
         
         // Message to user to enter how many employees need to be entered.
         cout << "\n\tHow many new employees need to be entered?" << endl;
@@ -55,11 +55,10 @@ vector<Employee> Helper::inputEmployees(){
             hEmailIn,wEmailIn,hAddressIn,randNum);
 
             // Add Employee object to end of the vector.
-            employees.push_back(e);
+            emps.push_back(e);
         }
+        return emps;
 
-        // Return the vector to caller.
-        return employees;
 
     }catch(exception ex)
     {
@@ -75,7 +74,7 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
         
         // Variables for use in the search function.
         string tempName;
-        char answer;
+        int answer;
         bool flag;
 
         // Helper object to utilize Helper functions within this Helper function
@@ -89,7 +88,7 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
         // Changes all characters entered to lower case for easier searching.
         transform(searchName.begin(), searchName.end(),searchName.begin(),::tolower);
 
-        // For loop to iterate through the passed in vector.
+        // For loop to iterate through the vector.
         for (int i = 0; i < emps.size(); i++){
 
             // Assign each Employee object's last name to our temp variable during iteration.
@@ -109,29 +108,26 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
                     cout << "\n\tEmployee Found." << endl;
 
                     // Ask user whether or not desire to display found employee.
-                    cout << "\n\tDisplay employee?(enter y for yes or n for no.): " << endl;
+                    cout << "\n\t1 Display the employee details.\n"
+                            "\t2 Edit the employee details.\n" << endl;
                     cin >> answer;
-                    if (answer == 'y' || answer == 'Y'){
+                    if (answer == 1){
                         h.displayEmployee(emps[i]);
-                    }else{
-
-                        // Ask user whether or not desire to edit found employee.
-                        cout << "\n\tEdit employee?(enter y for yes or n for no.): " << endl;
-                        cin.ignore();
-                        cin >> answer;
-                        if (answer == 'y' || answer == 'Y'){
-                            h.editEmployee(emps[i]);
-                        }
+                    }else if (answer == 2){
+                        emps[i] = h.editEmployee(emps[i]);
+                        
                     }
+                    
+                    
 
-                }
-                break;
-            }else{
+                }else{
                 cout << "\n\tEmployee not found" << endl;
+                }
             }
-
         }
         return emps;
+
+        
     }catch (exception ex){
         cout << ex.what() << endl;
     }
@@ -153,110 +149,98 @@ void Helper::displayEmployee(Employee emp){
         "\t" << emp.getIDnum() << "\n" << endl;
 }
 
-void Helper::editEmployee(Employee emp){
+Employee Helper::editEmployee(Employee emp){
 
-    char answer;
+    int answer;
+    do{
+        cout << "\t\nPlease choose which item to edit from the options below." << endl;
+        cout << "\t\n1 First Name"
+        <<"\t\n2 Middle Name"
+        <<"\t\n3 Last Name"
+        <<"\t\n4 Age"
+        <<"\t\n5 Home Phone"
+        <<"\t\n6 Work Phone"
+        <<"\t\n7 Home Email"
+        <<"\t\n8 Work Email"
+        <<"\t\n9 Home Address" 
+        <<"\t\n10 Done Editing" << endl;
 
-    // Allows editing of most fields of passed in Employee object.
-    cout<< "\n\tEnter Y or y to change prompted field." << endl;
-    cout << "\n\tChange First Name: " << endl;
-    cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> fNameIn;
-        emp.setFname(fNameIn);
-    }
-    cin.ignore();
-    cout << "\n\tChange Middle Name: " << endl;
         cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> mNameIn;
-        emp.setMname(mNameIn);
-    }
-    cin.ignore();
 
-    cout << "\n\tChange Last Name: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> lNameIn;
-        emp.setLname(lNameIn);
-    }
-    cin.ignore();
+        if (answer == 1){
+            cout << "\t\nEnter First Name: " << endl;
+            cin >> fNameIn;
+            emp.setFname(fNameIn);
 
-    cout << "\n\tChange Age: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> ageIn;
-        emp.setAge(ageIn);
-    }
-    cin.ignore();
+        }else if(answer == 2){
+            cout << "\t\nEnter Middle Name: " << endl;
+            cin >> mNameIn;
+            emp.setMname(mNameIn);
 
-    cout << "\n\tChange Home Phone Number: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> hPhoneIn;
-        emp.setHphone(hPhoneIn);
-    }
-    cin.ignore();
+        }else if(answer == 3){
+            cout << "\t\nEnter Last Name: " << endl;
+            cin >> lNameIn;        
+            emp.setLname(lNameIn);
 
-    cout << "\n\tChange Work Phone Number: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> wPhoneIn;
-        emp.setWphone(wPhoneIn);
-    }
-    cin.ignore();
+        }else if(answer == 4){
+            cout << "\t\nEnter Age: " << endl;
+            cin >> ageIn;
+            emp.setAge(ageIn);
 
-    cout << "\n\tChange Home Email Address: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> hEmailIn;
-        emp.setHemail(hEmailIn);
-    }
-    cin.ignore();
+        }else if(answer == 5){
+            cout << "\t\nEnter Home Phone: " << endl;
+            cin >> hPhoneIn;
+            emp.setHphone(hPhoneIn);
 
-    cout << "\n\tChange Work Email Address: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> wEmailIn;
-        emp.setWemail(wEmailIn);
-    }
-    cin.ignore();
+        }else if(answer == 6){
+            cout << "\t\nEnter Work Phone: " << endl;
+            cin >> wPhoneIn;
+            emp.setWphone(wPhoneIn);
 
-    cout << "\n\tChange Home Address: " << endl;
-        cin >> answer;
-    if(answer == 'y' || answer == 'Y'){
-        cin >> hAddressIn;
-        emp.setHaddress(hAddressIn);
-    }
-    cin.ignore();
+        }else if(answer == 7){
+            cout << "\t\nEnter Home Email: " << endl;
+            cin >> hEmailIn;
+            emp.setHemail(hEmailIn);
 
+        }else if(answer == 8){
+            cout << "\t\nEnter Work Email: " << endl;
+            cin >> wEmailIn;
+            emp.setWemail(wEmailIn);
+
+        }else if(answer == 9){
+            cout << "\t\nEnter Home Address: " << endl;
+            cin >> hAddressIn;
+            emp.setHaddress(hAddressIn);
+        }
+        return emp;
+        
+
+    }while (answer != 10);
+    
+    
 }
+    
 
 void Helper::writeToFile(vector<Employee> emps){
 
-    // This serializes an Employee object for easy writing to a file.
-    friend ostream & operator << (ostream &out, const Employee & obj){
-        out << obj.getIDnum()
-        << obj.getFname() << "\n"
-        << obj.getMname() << "\n"
-        << obj.getLname() << "\n"
-        << obj.getAge() << "\n"
-        << obj.getHphone() << "\n"
-        << obj.getWphone() << "\n"
-        << obj.getHemail() << "\n"
-        << obj.getWemail() << "\n"
-        << obj.getHaddress << "\n\n" << endl;
+    for (int i = 0; i < emps.size() + 1; i++){
+
+        ofstream empFile;
+        
+        empFile.open("Employees.txt");
+        
+        empFile << "\nEmployee ID Number: " << emps[i].getIDnum() << endl;
+        empFile << "First Name: " << emps[i].getFname() << endl;
+        empFile << "Middle Name: " << emps[i].getMname() << endl;
+        empFile << "Last Name: " << emps[i].getLname() << endl;
+        empFile << "Age: " << emps[i].getAge() << endl;
+        empFile << "Home Phone Number: " << emps[i].getHphone() << endl;
+        empFile << "Work Phone Number: " << emps[i].getWphone() << endl;
+        empFile << "Home Email Address: " << emps[i].getHemail() << endl;
+        empFile << "Work Email Address: " << emps[i].getWemail() << endl;
+        empFile << "Home Address: " << emps[i].getHaddress() << endl;
+
     }
 
-    // Open our file.
-    ofstream out ("Employees.txt");
-
-    // For loop to iterate through the passed in vector and write each object out to the file.
-    for (int i = 0; i < emps.size(); i++){
-        out<<emps[i];
-    }
-
-    // Close file
-    out.close();
 
 }

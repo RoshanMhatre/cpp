@@ -1,3 +1,4 @@
+
 /* Author: Rodney Nedlose
  * Date: 8.1.19
  * File:   Helper.h
@@ -45,10 +46,10 @@ class Helper {
 
         }
 
-        vector<Employee> inputEmployees();
+        vector<Employee> inputEmployees(vector<Employee> emps);
         vector<Employee> searchEmployees(vector<Employee> emps);
         void displayEmployee(Employee emp);
-        void editEmployee(Employee emp);
+        Employee editEmployee(Employee emp);
         void writeToFile(vector<Employee> emps);
 
 };
