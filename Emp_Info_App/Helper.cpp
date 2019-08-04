@@ -18,17 +18,13 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
     // Try catch block for unforeseen exception catching.
     try{    
 
-        // Create a vector to be returned to caller after data entry.
-        // vector<Employee> employees = emps;
-        
         // Message to user to enter how many employees need to be entered.
         cout << "\n\tHow many new employees need to be entered?" << endl;
         cin >> numEmployees;
 
         // For loop to get data for each employee to be entered
         for (int i = 0; i < numEmployees; i++)
-        {
-            
+        {            
             cout << "\n\tEnter Information as prompted." << endl;
             cout << "\n\tFirst Name: " << endl;
             cin >> fNameIn;
@@ -51,7 +47,7 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
             getline(cin, hAddressIn);
             
 
-            // Generate random number from 1-100000 for and Employee ID number.
+            // Generate random number from 1-100000 for an Employee ID number.
             randNum = rand() %100000;
 
             // Instantiate an object of Employee type.
@@ -61,6 +57,7 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
             // Add Employee object to end of the vector.
             emps.push_back(e);
         }
+        // Return the changed vector.
         return emps;
 
 
@@ -82,6 +79,7 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
         bool flag;
 
         // Helper object to utilize Helper functions within this Helper function
+        // and call display and edit functions based on user answer.
         Helper h = Helper();
 
         // Prompt user for a last name to search for.
@@ -105,37 +103,31 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
             if (tempName == searchName){
 
                 // Flag boolean variable assigned to true if searched for name is found in vector
-                // This allows the program to call other functions if desired and break out of the 
-                // for loop afterwards.
                 flag = true;
                 if (flag) {
                     cout << "\n\tEmployee Found." << endl;
 
-                    // Ask user whether or not desire to display found employee.
+                    // Sub menu for either displaying or editing the found employee.
                     cout << "\n\t1 Display the employee details.\n"
                             "\t2 Edit the employee details.\n" << endl;
                     cin >> answer;
                     if (answer == 1){
                         h.displayEmployee(emps[i]);
                     }else if (answer == 2){
-                        emps[i] = h.editEmployee(emps[i]);
-                        
-                    }
-                    
-                    
+                        emps[i] = h.editEmployee(emps[i]);                        
+                    }               
 
                 }else{
                 cout << "\n\tEmployee not found" << endl;
                 }
             }
         }
+        // Return the changed vector
         return emps;
-
         
     }catch (exception ex){
         cout << ex.what() << endl;
     }
-
 }
 
 void Helper::displayEmployee(Employee emp){
@@ -155,6 +147,7 @@ void Helper::displayEmployee(Employee emp){
 
 Employee Helper::editEmployee(Employee emp){
 
+    // Menu for user to decide which field they wish to edit, one at a time.
     int answer;
     do{
         cout << "\t\nPlease choose which item to edit from the options below." << endl;
@@ -216,17 +209,17 @@ Employee Helper::editEmployee(Employee emp){
             cin >> hAddressIn;
             emp.setHaddress(hAddressIn);
         }
-        return emp;
-        
+        // Return the edited employee object.
+        return emp;        
 
-    }while (answer != 10);
-    
-    
+    }while (answer != 10); 
 }
     
 
 void Helper::writeToFile(vector<Employee> emps){
 
+    // This function opens/creates a file and appends each entered employee
+    // to it.
     for (int i = 0; i < emps.size(); i++){
 
         ofstream empFile;
@@ -245,6 +238,5 @@ void Helper::writeToFile(vector<Employee> emps){
         empFile << "Home Address: " << emps[i].getHaddress() << endl;
 
     }
-
 
 }

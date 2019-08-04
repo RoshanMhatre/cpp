@@ -20,13 +20,16 @@ using namespace std;
 
 int main(){
     try{
+
+        // Some variables needed.
         int choice;
         vector<Employee> emps;
 
+        // Create our helper object.
         Helper h = Helper();
         do {
 
-        
+            // Main menu.        
             cout << "\n\tEmployee Information Program." << endl;
             cout << "\n\tPlease choose from the options below." << endl;
             cout << "\t1 Enter in new Employees.\n"
@@ -46,7 +49,6 @@ int main(){
                     h.writeToFile(emps);
                 }
 
-
         } while (choice != 4);
 
         return 0;
@@ -54,6 +56,4 @@ int main(){
     }catch(exception ex){
         cout << ex.what() << endl;
     }
-
-
 }
