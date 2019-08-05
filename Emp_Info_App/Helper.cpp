@@ -14,6 +14,7 @@
 
 #include "Helper.h"
 
+// Input employee information.
 vector<Employee> Helper::inputEmployees(vector<Employee> emps){
     // Try catch block for unforeseen exception catching.
     try{    
@@ -69,6 +70,7 @@ vector<Employee> Helper::inputEmployees(vector<Employee> emps){
 
 }
 
+// Search for entered employee by last name.
 vector<Employee> Helper::searchEmployees(vector<Employee> emps){
     // Basic try catch block for unforeseen exceptions.
     try{
@@ -112,8 +114,10 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
                             "\t2 Edit the employee details.\n" << endl;
                     cin >> answer;
                     if (answer == 1){
+                        // Call Helper function to display the found employee information.
                         h.displayEmployee(emps[i]);
                     }else if (answer == 2){
+                        // Call Helper function to edit the found employee information.
                         emps[i] = h.editEmployee(emps[i]);                        
                     }               
 
@@ -130,6 +134,7 @@ vector<Employee> Helper::searchEmployees(vector<Employee> emps){
     }
 }
 
+// Helper function to display employee information.
 void Helper::displayEmployee(Employee emp){
 
     // Prints out all fields for passed in Employee object.
@@ -145,6 +150,7 @@ void Helper::displayEmployee(Employee emp){
         "\t" << emp.getIDnum() << "\n" << endl;
 }
 
+// Helper function to edit employee information.
 Employee Helper::editEmployee(Employee emp){
 
     // Menu for user to decide which field they wish to edit, one at a time.
@@ -162,8 +168,10 @@ Employee Helper::editEmployee(Employee emp){
         <<"\t\n9 Home Address" 
         <<"\t\n10 Done Editing" << endl;
 
+        // User choice for menu option.
         cin >> answer;
 
+        // If Else decision structure for user menu choice.
         if (answer == 1){
             cout << "\t\nEnter First Name: " << endl;
             cin >> fNameIn;
@@ -215,7 +223,7 @@ Employee Helper::editEmployee(Employee emp){
     }while (answer != 10); 
 }
     
-
+// Append entered employee information to a .txt file.
 void Helper::writeToFile(vector<Employee> emps){
 
     // This function opens/creates a file and appends each entered employee

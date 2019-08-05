@@ -37,15 +37,22 @@ int main(){
                 << "\t3 Export entered Employees to text file.\n"
                 << "\t4 Exit the program.\n" << endl;
 
+                // User input for menu option.
                 cin >> choice;
 
+                // Choice #1.
                 if (choice == 1){
+                    // Helper function to input employee information.
                     emps = h.inputEmployees(emps);                    
 
+                // Choice #2. 
                 }else if (choice == 2){
+                    // Search for an employee by last name.  Sub-menu for editing or displaying.
                     emps = h.searchEmployees(emps);
 
+                // Choice #3.
                 }else if (choice == 3){
+                    // Append entered employees to a .txt file.
                     h.writeToFile(emps);
                 }
 

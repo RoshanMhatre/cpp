@@ -26,6 +26,7 @@ using namespace std;
 class Helper {
 
     private:
+        // Fields for Helper objects.
         string searchName;
         int numEmployees;
         string fNameIn;
@@ -42,10 +43,12 @@ class Helper {
 
 
     public:
+        // Constructor for Helper objects.
         Helper(){
 
         }
 
+        // Methods/Functions for Helper objects.
         vector<Employee> inputEmployees(vector<Employee> emps);
         vector<Employee> searchEmployees(vector<Employee> emps);
         void displayEmployee(Employee emp);
