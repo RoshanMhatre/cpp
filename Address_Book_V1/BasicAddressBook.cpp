@@ -22,6 +22,7 @@ using namespace std;
 int main()
 {
 	// Constant variable for the program.
+	//const variables are read-only variables
 	const int SIZE = 10;
 
 	// Array of Objects of type Record.
@@ -97,6 +98,7 @@ int main()
 		}
 	
 	// This is the Do-While condition.
-	} while (choice != "3");
+	//This loop will work till doesn't enter "3" making it a program continuously asking for your operation
+	} while (choice != "3");          
 	return 0;
 }
