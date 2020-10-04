@@ -13,7 +13,7 @@
 
 #include <cstdlib>
 #include <iostream>
-#include <string>
+#include <string>   //for Using String Functions
 
 using namespace std;
 
@@ -22,6 +22,7 @@ using namespace std;
 
 class Record
 {
+//Variables are kept private so everyone can't use them
 private:
 	int recordNum;
 	string firstName;
@@ -37,6 +38,7 @@ public:
 	}
 
 	// Override Constructor
+	// Overrides the default constructor and gets executed
 	Record(int recordIn, string fNameIn, string lNameIn,
 		string ageIn, string pNumIn)
 		:recordNum(recordIn), firstName(fNameIn),
