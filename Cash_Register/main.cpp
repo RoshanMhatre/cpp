@@ -17,7 +17,7 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    
+ // const variables are read-only variables so their values can't be changed later
     const double TAXRATE = 0.07; // Constant variable for the tax rate
     
     // Need an underline later, so assign it to a variable for easier reading code
@@ -38,9 +38,9 @@ int main(int argc, char** argv) {
                                     // input and doing needed calculations
         cout << "What is the cost of the item?(in dollars/cents)" << endl;
         cin>>itemCost[i];
-        itemTax[i] = itemCost[i] * TAXRATE;
-        subTotal[i] = itemCost[i] + itemTax[i];
-        itemsTotal = itemsTotal + itemCost[i];
+        itemTax[i] = itemCost[i] * TAXRATE; // These lines calculate all the taxes
+        subTotal[i] = itemCost[i] + itemTax[i]; // and get you the total amount
+        itemsTotal = itemsTotal + itemCost[i];  // that has to be played
         taxTotal = taxTotal + itemTax[i];
         totalDue = totalDue + subTotal[i];
         cin.ignore();               // Clear out the input to make sure nothing
